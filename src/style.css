@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  background: linear-gradient(to right, #00aaff, #00ff6c);
+  background: linear-gradient(to right, #2e2d2d, #797c7a);
 }
 
 .calculator-grid {
@@ -46,9 +46,10 @@ body {
   word-break: break-all;
 }
 
-.output .previous-oparend {
-  color: rgba(255, 255, 255, 0.75);
-  font-size: 1.5rem;
+.output .previous-operand {
+  color: rgba(255, 244, 244, 0.8);
+
+  font-size: 1.8rem;
 }
 
 .output .current-operand {
